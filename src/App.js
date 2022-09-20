@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import Home from './vistas/home';
+import CrearCuenta from './vistas/crearCuenta';
+import IniciarSesion from './vistas/inciarSesion';
+import Sucursales from './vistas/sucursales';
+import Organizacional from './vistas/organizacional';
+import Servicios from './vistas/servicios';
+import Profesionales from './vistas/profesionales';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+     
+     <BrowserRouter>
+        <Routes>
+              <Route path="/del-plata" element={<Home></Home>}/>
+              <Route path="/iniciar-sesion" element={<IniciarSesion/>}/>
+              <Route path="/crear-cuenta" element={<CrearCuenta></CrearCuenta>}/>
+              <Route path="/sucursales" element={<Sucursales></Sucursales>}/>
+              <Route path="/servicios" element={<Servicios></Servicios>}/>
+              <Route path="/profesionales" element={<Profesionales></Profesionales>}/>
+              <Route path="/organizacional" element={<Organizacional></Organizacional>}/>
+              <Route path="*" element={<Navigate to='/del-plata'></Navigate>}/>
+
+       </Routes>
+      </BrowserRouter>
+   </>
   );
 }
 
