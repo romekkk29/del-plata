@@ -305,11 +305,11 @@ function Home(){
                             <p>Farmacia online</p>
                             <img loading='lazy' ref={iconfarmacia} className='pedro' src={iconFarmacia} alt="farmacia"/>
                         </a>
-                        <a href='/sucursales' ref={sucursales} className='sucursales'>
+                        <Link to='/sucursales' ref={sucursales} className='sucursales'>
                             <div className='oscureceSucursal'></div>
                             <p>Sucursales</p>
                             <img loading='lazy' ref={iconsucursales} src={iconSucursales} alt="sucursales"/>
-                        </a>
+                        </Link>
             </section>
             <section id='galeria'>
                     <Link to='/servicios'>
