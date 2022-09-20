@@ -17,7 +17,10 @@ const StyledContainer=styled.section`
         color:#666666;
         font-size:50px;
         margin-bottom:35px;
+        @media all and (max-width:500px){
+            font-size:30px;
 
+        }
     }
     .text{
         padding:50px 500px 50px 40px;

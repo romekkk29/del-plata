@@ -34,7 +34,7 @@ const StyledContainHeader=styled.header`
         }
         nav ul li {
             margin:0px;
-
+          
         }
         nav ul li a{
             text-decoration:none;
@@ -43,6 +43,12 @@ const StyledContainHeader=styled.header`
             font-size: 16px;
             color: #8F2A85;
             margin-right:30px;
+            @media all and (max-width:500px){
+                font-size: 14px;
+                 }
+                 @media all and (max-width:340px){
+                    font-size: 12px;
+                     }
         }
         .logo{
             padding-top:27px;

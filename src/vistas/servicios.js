@@ -12,6 +12,10 @@ const StyledContainer=styled.section`
         color:#888888;
         font-size:24px;
         margin-bottom:20px;
+        @media all and (max-width:500px){
+            font-size:40px;
+
+        }
     }
     h2{
         color:#666666;

@@ -16,6 +16,10 @@ const StyledContain=styled.div`
         height:1250px;
 
     }
+    @media all and (max-width:450px){
+        height:1400px;
+
+    }
     img{
         position:absolute;
         right:50px;
