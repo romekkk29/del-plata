@@ -132,7 +132,7 @@ function Sucursales(){
     },{
         nombre:'Econo Mas Villanueva',
         direccion:'Godoy Cruz 3755 ',
-        localidad:'Villa Nueva ',
+        localidad:'Guaymallen ',
         map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1481.5902961078393!2d-68.7909981041617!3d-32.893940250633925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0ec08000659d%3A0x6bb3ad66af0cf829!2sFarmacia%20Econom%C3%A1s%20Villa%20Nueva!5e0!3m2!1ses-419!2sar!4v1663615825395!5m2!1ses-419!2sar" ,
         horario:'24 ',
         sabado:'24 ',
@@ -233,6 +233,46 @@ function Sucursales(){
         horario:'9–14 ; 17–20',
         sabado:'9 a 14 ',
         domingo:'Cerrado '
+    },{
+        nombre:'La Jirafa II',
+        direccion:'Paso de Los Andes 1102 ',
+        localidad:'Godoy Cruz',
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674.693795566044!2d-68.86077008214687!3d-32.914356450864766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e099dc280d95b%3A0x54bb9e1bf43f194a!2sLa%20Jirafa%20II!5e0!3m2!1ses-419!2sar!4v1663970191598!5m2!1ses-419!2sar",
+        horario:'8 a 22',
+        sabado:'10-14 ; 17-21 ',
+        domingo:'Cerrado '
+    },{
+        nombre:'Godoy Cruz Libertad',
+        direccion:'J. V. González 450 ',
+        localidad:'Godoy Cruz',
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674.4182832311426!2d-68.85702871653993!3d-32.928915996535345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd5096a4015%3A0xf7da1fe89054ad39!2sFarmacia%20Godoy%20Cruz%20Libertad!5e0!3m2!1ses-419!2sar!4v1663970455558!5m2!1ses-419!2sar",
+        horario:'9 a 22',
+        sabado:'9 a 22 ',
+        domingo:'9 a 22 '
+    },{
+        nombre:'Del Cerro',
+        direccion:'Gral. Julio Argentino Roca 1750 ',
+        localidad:'Las Heras',
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.534363977064!2d-68.85589954909376!3d-32.851274699334354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09db15bc1039%3A0x2b0f4ab0f7630ab7!2sFarmacia%20Del%20Cerro!5e0!3m2!1ses-419!2sar!4v1663970758694!5m2!1ses-419!2sar",
+        horario:'8-14 ; 17-21 ',
+        sabado:'9 a 14 ',
+        domingo:'Cerrado '
+    },{
+        nombre:'La Jirafa ',
+        direccion:'Balcarce 22 ',
+        localidad:'Lujan de Cuyo',
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672.3432040211387!2d-68.88055724470927!3d-33.03839134649123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e753fd442877d%3A0xc052588ef9bee4fa!2sFarmacia%20La%20Jirafa!5e0!3m2!1ses-419!2sar!4v1663971039629!5m2!1ses-419!2sar",
+        horario:'8 a 23:30 ',
+        sabado:'8 a 23:30  ',
+        domingo:'8 a 23:30 '
+    },{
+        nombre:'Los Cerros ',
+        direccion:'R. Sáenz Peña 1940 ',
+        localidad:'Lujan de Cuyo',
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672.4529779307966!2d-68.90311868822604!3d-33.03260804537728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e7559d1051a43%3A0x55caa31a968dfed1!2sFarmacias%20Los%20Cerros%20en%20Vistalba!5e0!3m2!1ses-419!2sar!4v1663971165907!5m2!1ses-419!2sar", 
+        horario:'8 a 22 ',
+        sabado:'9-13 ; 17-21 ',
+        domingo:'Cerrado '
     }
 
 
@@ -298,7 +338,8 @@ function Sucursales(){
                         <option value='Las Heras'>Las Heras</option>
                         <option value='Maipu '>Maipú</option>
                         <option value='Godoy Cruz'>Godoy Cruz</option>
-                        <option value='Villa Nueva'>Villa Nueva</option>
+                        <option value='Guaymallen'>Guaymallén</option>
+                        <option value='Lujan'>Luján de Cuyo</option>
                         <option value='San Martin'>San Martín</option>
 
                         <option value=' '>Todas las opciones</option>
@@ -307,6 +348,8 @@ function Sucursales(){
                         <option hidden selected>Horario</option>
                         <option value='24'>24hs</option>
                         <option value='8 a 21'>8 a 21 hs</option>
+                        <option value='8 a 22'>8 a 22 hs</option>
+                        <option value='8 a 23'>8 a 24 hs</option>
                         <option value='9 a 21'>9 a 21 hs</option>
                         <option value='9 a 22'>9 a 22 hs</option>
                         <option value='10 a 19'>10 a 19 hs</option>
